@@ -47,10 +47,18 @@ header {
         .login {
           color: $white;
           background: $red;
+            &:hover {
+              background: #ad081b;
+              cursor: pointer;
+            }
         }
         .signup {
           margin-left: 16px;
           background: $gray-light;
+             &:hover {
+              background: #e2e2e2;
+              cursor: pointer;
+            }
         }
       }
     }
